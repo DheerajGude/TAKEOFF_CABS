@@ -1,0 +1,27 @@
+# Node (Frontend)
+node_modules/
+dist/
+build/
+.env
+
+# Java (Spring Boot Microservices)
+**/target/
+**/.classpath
+**/.project
+**/.settings/
+
+# OS + IDE junk
+.DS_Store
+Thumbs.db
+*.log
+
+# Git
+.gitignore
+!.gitignore
+
+# Environment / Secrets
+.env
+*.env
+
+# VSCode
+.vscode/
