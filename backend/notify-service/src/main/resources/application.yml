@@ -1,0 +1,27 @@
+server:
+  port: 8084
+
+spring:
+  application:
+    name: notify-service
+
+# Enable actuator endpoints if needed later
+management:
+  endpoints:
+    web:
+      exposure:
+        include: "*"
+
+# Logging level configuration
+logging:
+  level:
+    root: INFO
+    com.notifyservice: DEBUG
+
+# Swagger UI config (optional, if added)
+springdoc:
+  api-docs:
+    path: /v3/api-docs
+  swagger-ui:
+    path: /swagger-ui.html
+    enabled: true
